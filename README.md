@@ -36,7 +36,7 @@ Follow these instructions to set up the project locally for development and test
 
 Clone the repository
 
-git clone https://github.com/<your-username>/makini_university_api.git
+git clone https://github.com/NyangoyaG/makini_university_api2.git
 cd makini_university_api
 
 
@@ -104,7 +104,6 @@ Example request:
 
 curl -X POST "http://127.0.0.1:8000/payments/notify?student_id=CS001&amount=1500&payment_method=M-Pesa&transaction_id=TXN1001"
 
-
 Response:
 
 {
@@ -112,7 +111,7 @@ Response:
 }
 
 Project Structure
-makini_university_api/
+makini_university_api2/
 │
 ├── myMain.py               # Main FastAPI application
 ├── seed_db.py              # Database seeding script
